@@ -7,7 +7,7 @@ const Header = () => {
   const { state } = useCart();
 
   return (
-    <header className="bg-white shadow-md rounded-b-3xl px-6 py-3 flex items-center justify-between">
+    <header className="bg-white shadow-md rounded-b-3xl px-6 py-3 flex items-center justify-between mx-">
       {/* Left: Navigation */}
       <nav className="flex space-x-6 items-center">
         <Link to="/new-drops" className="font-medium hover:text-gray-700">
